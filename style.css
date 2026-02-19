@@ -10,7 +10,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Arial', sans-serif;
   font-weight: 300;
   font-size: 15px;
   color: #111;
@@ -260,7 +260,7 @@ footer {
 }
 
 .project-title {
-  font-family: Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
   font-weight: 300; /* Light */
   font-size: 30px;
   margin-bottom: 0.5rem;
@@ -369,7 +369,7 @@ h3 {
     opacity: 1;
     transform: translateY(0);
   }
-} /* <- fermer ici la règle fadeIn */
+
 
 .scroll-arrow {
   font-size: 40px;
@@ -377,14 +377,14 @@ h3 {
   display: inline-block;
   margin-top: 2rem;
   cursor: pointer;
-  opacity: 1; /* cachée par défaut */
+  opacity: 1;
   transition: opacity 1 ease;
   user-select: none;
   animation: bounce 2s infinite;
 }
 
 .scroll-arrow.visible {
-  opacity: 1; /* visible quand la classe est ajoutée */
+  opacity: 1;
 }
 
 @keyframes bounce {
@@ -446,7 +446,7 @@ html {
 
 }
 .back-icon {
-  width: 30px;       /* taille du bouton retour */
+  width: 30px;     
   height: auto;
   vertical-align: middle;
   cursor: pointer;
@@ -521,7 +521,7 @@ html {
 #CONTACT, section#CONTACT {
   display: flex;
   flex-direction: column;
-  align-items: center;    /* centre horizontalement tous les enfants */
+  align-items: center;    
   justify-content: center;
   text-align: center;
   padding: 1.5rem;
@@ -539,15 +539,15 @@ html {
   }
 
   h2 {
-    font-size: 40px; /* Work / Contact plus petits */
+    font-size: 40px; 
   }
 
   .gallery a img {
-    width: 150px; /* Images réduites */
+    width: 150px; 
   }
 }
 
-/* Version très petit écran : max 480px */
+
 @media (max-width: 480px) {
   .intro-text {
     font-size: 28px;
@@ -561,12 +561,12 @@ html {
     width: 180px;
   }
 }
-/* wrapper : réserve de l'espace latéral pour les flèches (elles restent dans la zone blanche) */
+
 .carousel-wrapper {
   position: relative;
-  max-width: 1000px; /* adapte si besoin */
+  max-width: 1000px; 
   margin: 30px auto;
-  padding: 0 60px; /* <-- important : réserve l'espace pour les flèches */
+  padding: 0 60px; 
   box-sizing: border-box;
 }
 
@@ -576,7 +576,7 @@ html {
   gap: 16px;
   overflow-x: auto;
   scroll-behavior: smooth;
-  padding: 10px 0; /* pas de padding horizontal ici, on a le wrapper pour ça */
+  padding: 10px 0; 
   -ms-overflow-style: none; /* IE/Edge */
   scrollbar-width: none;    /* Firefox */
 }
@@ -586,14 +586,14 @@ html {
 .carousel a { flex: 0 0 auto; text-decoration: none; }
 .carousel img {
   display: block;
-  width: auto;       /* on ne force pas la largeur */
+  width: auto;       
   height: auto;
-  max-height: 320px; /* limite la hauteur pour garder une ligne propre */
+  max-height: 320px; 
   object-fit: cover;
   border-radius: 4px;
 }
 
-/* flèches : dans l'espace blanc (grâce au padding du wrapper) */
+
 .carousel-btn {
   position: absolute;
   top: 50%;
@@ -613,7 +613,6 @@ html {
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
 
-/* On place les boutons dans la zone blanche (padding) du wrapper */
 .carousel-btn.left  { left: 12px; }  /* visible dans la zone blanche réservée */
 .carousel-btn.right { right: 12px; }
 
@@ -671,9 +670,9 @@ html {
   position: relative;
   max-width: 1000px;
   margin: 30px auto;
-  padding: 0 60px; /* espace pour flèches */
+  padding: 0 60px; 
   box-sizing: border-box;
-  overflow: visible; /* important pour que flèches dépassent si besoin */
+  overflow: visible; 
 }
 
 /* piste (images) */
@@ -718,15 +717,15 @@ html {
   margin: 0;
   cursor: pointer;
   z-index: 30;
-  width: 40px;  /* taille fixe pour flèches */
+  width: 40px;  
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  pointer-events: auto; /* pour s’assurer que le clic passe bien */
+  pointer-events: auto; 
 }
 
-/* position flèches */
+
 .carousel-btn.left {
   left: 10px;
 }
@@ -735,7 +734,7 @@ html {
   right: 10px;
 }
 
-/* focus accessibilité */
+
 .carousel-btn:focus {
   outline: 2px solid rgba(210, 27, 27, 0.25);
 }
@@ -762,7 +761,7 @@ html {
 }
 
 .carousel-btn.left {
-  left: -50px; /* très proche du bord */
+  left: -50px; 
 }
 .carousel-btn.right {
   right: -50px;
@@ -783,18 +782,18 @@ html {
 }
 .carousel {
   display: flex;
-  gap: 10px; /* réduire un peu le gap entre images */
+  gap: 10px; 
   overflow-x: auto;
   scroll-behavior: smooth;
   padding: 10px 0;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  width: 100%; /* prends toute la largeur */
+  width: 100%; 
 }
 
 .carousel-wrapper {
   width: 70vw;
-  margin: 0 auto; /* centre horizontalement */
+  margin: 0 auto; 
   padding: 0 20px;
   box-sizing: border-box;
 }
@@ -808,26 +807,27 @@ html {
 
 .project-thumbs {
   display: flex;
-  flex-wrap: wrap;       /* Permet aux images de passer à la ligne */
-  gap: 15px;             /* Espacement entre les images */
-  justify-content: center; /* Centre horizontalement */
-  align-items: center;   /* Centre verticalement */
+  flex-wrap: wrap;      
+  gap: 15px;             
+  justify-content: center;
+  align-items: center;   
   margin-top: 20px;
 }
 
 .project-thumbs a {
-  flex: 0 0 auto;        /* Les liens ne se compressent pas */
-  max-width: 150px;      /* Taille max des images */
+  flex: 0 0 auto;      
+  max-width: 150px;     
   display: block;
 }
 
 .project-thumbs img {
-  width: 100%;           /* L'image remplit son conteneur <a> */
+  width: 100%;          
   height: auto;
   display: block;
-  border-radius: 6px;    /* Optionnel : coins arrondis */
-  object-fit: cover;     /* Pour éviter déformation */
+  border-radius: 6px;   
+  object-fit: cover;    
 }
+
 
 
 
