@@ -77,9 +77,7 @@ nav a {
 
 @font-face {
   font-family: 'DatDot-Bold';
-  src: url('Images/DatDot-Bold.woff2') format('woff2'),
-       url('Images/DatDot-Bold.woff') format('woff'),
-       url('Images/DatDot-Bold.ttf') format('truetype');
+  src: url('Images/DatDot-Bold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -827,6 +825,7 @@ html {
   border-radius: 6px;   
   object-fit: cover;    
 }
+
 
 
 
