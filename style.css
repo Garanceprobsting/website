@@ -76,16 +76,16 @@ nav a {
 }
 
 @font-face {
-  font-family: 'DotMatrix';
-  src: url('Images/DotMatrix.woff2') format('woff2'),
-       url('Images/DotMatrix.woff') format('woff'),
-       url('Images/DotMatrix.ttf') format('truetype');
+  font-family: 'DatDot-Bold';
+  src: url('Images/DatDot-Bold.woff2') format('woff2'),
+       url('Images/DatDot-Bold.woff') format('woff'),
+       url('Images/DatDot-Bold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 .intro-text {
-  font-family: 'DotMatrix', sans-serif;
+  font-family: 'DatDot-Bold', sans-serif;
   font-weight: 300;
   font-size: 90px;
   margin: 0 auto 5rem auto;
@@ -194,7 +194,7 @@ nav a {
 
 h2 {
 
-  font-family: 'DotMatrix', sans-serif;
+  font-family: 'DatDot-Bold', sans-serif;
   color: red;
   text-align: Center;
   font-weight: 300;
@@ -297,7 +297,7 @@ header {
   margin-bottom: 3rem;
 }
 header h1 {
-font-family: 'DotMatrix', sans-serif;
+font-family: 'DatDot-Bold', sans-serif;
   color: red;
   text-align: Center;
   font-weight: 300;
@@ -431,7 +431,7 @@ h3 {
   }
 
 h4 {
-  font-family: 'DotMatrix', sans-serif;
+  font-family: 'DatDot-Bold', sans-serif;
   color: red;
   text-align: Center;
   font-weight: 300;
@@ -827,6 +827,7 @@ html {
   border-radius: 6px;   
   object-fit: cover;    
 }
+
 
 
 
