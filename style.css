@@ -10,7 +10,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Arial Light Regular', sans-serif;
   font-weight: 300;
   font-size: 15px;
   color: #111;
@@ -825,6 +825,7 @@ html {
   border-radius: 6px;   
   object-fit: cover;    
 }
+
 
 
 
