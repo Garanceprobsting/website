@@ -103,7 +103,7 @@ nav a {
 
 .intro p {
   font-size: 10px;
-  font-family: Helvetica, sans-serif;
+  font-family: Arial Light Regular, sans-serif;
 
 }
 .fade {
@@ -246,7 +246,7 @@ footer {
   text-align: center;
   padding: 2rem;
   font-size: 15px;
-  font-family: Helvetica, sans-serif;
+  font-family: Arial Light Regular, sans-serif;
   color: #333; 
 }
 
@@ -258,7 +258,7 @@ footer {
 }
 
 .project-title {
-  font-family: Arial, sans-serif;
+  font-family: Arial Light Regular, sans-serif;
   font-weight: 300; /* Light */
   font-size: 30px;
   margin-bottom: 0.5rem;
@@ -825,6 +825,7 @@ html {
   border-radius: 6px;   
   object-fit: cover;    
 }
+
 
 
 
