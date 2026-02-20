@@ -164,19 +164,19 @@ nav a {
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 
-  scrollbar-width: none;       /* Firefox */
-  -ms-overflow-style: none;    /* IE / Edge */
+  scrollbar-width: none;       
+  -ms-overflow-style: none;    
 }
 .gallery::-webkit-scrollbar {
-  display: none;               /* Chrome/Safari */
+  display: none;              
 }
 
 .gallery a {
-  flex-shrink: 0;              /* ← empêche les images de se réduire */
+  flex-shrink: 0;            
 }
 
 .gallery a img {
-  width: 300px;                /* ← fixe une largeur pour garantir le débordement */
+  width: 300px;               
   height: auto;
   border-radius: 8px;
   display: block;
@@ -281,7 +281,7 @@ footer {
 }
 
 
-/* Reset de base */
+
 * {
   margin: 0;
   padding: 0;
@@ -318,7 +318,7 @@ header a:hover {
   text-decoration: none;
 }
 
-/* Contenu principal */
+
 main {
   max-width: 700px;
   margin: 0 auto;
@@ -471,11 +471,11 @@ html {
   gap: 20px;
   padding: 1rem;
   max-width: 90vw;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none;  /* IE 10+ */
+  scrollbar-width: none; 
+  -ms-overflow-style: none;  
 }
 .project-thumbs::-webkit-scrollbar {
-  display: none; /* Chrome/Safari */
+  display: none;
 }
 
 .project-thumbs a img {
@@ -529,10 +529,10 @@ html {
 #CONTACT p { margin: .5rem 0; max-width:720px; }
 #CONTACT a { display:inline-block; margin:.25rem 0; }
 }
-/* Version mobile : max 768px */
+
 @media (max-width: 768px) {
   .intro-text {
-    font-size: 50px; /* Texte d'intro plus petit */
+    font-size: 50px; 
     line-height: 1.2;
   }
 
@@ -568,19 +568,19 @@ html {
   box-sizing: border-box;
 }
 
-/* piste (les images) */
+
 .carousel {
   display: flex;
   gap: 16px;
   overflow-x: auto;
   scroll-behavior: smooth;
   padding: 10px 0; 
-  -ms-overflow-style: none; /* IE/Edge */
-  scrollbar-width: none;    /* Firefox */
+  -ms-overflow-style: none; 
+  scrollbar-width: none;    
 }
-.carousel::-webkit-scrollbar { display: none; height: 0; } /* Chrome/Safari */
+.carousel::-webkit-scrollbar { display: none; height: 0; } 
 
-/* cartes / images */
+
 .carousel a { flex: 0 0 auto; text-decoration: none; }
 .carousel img {
   display: block;
@@ -605,22 +605,22 @@ html {
   border-radius: 8px;
   background: rgba(255,255,255,0.95);
   font-size: 22px;
-  color: #d21b1b; /* rouge */
+  color: #d21b1b; 
   cursor: pointer;
   z-index: 30;
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
 
-.carousel-btn.left  { left: 12px; }  /* visible dans la zone blanche réservée */
+.carousel-btn.left  { left: 12px; } 
 .carousel-btn.right { right: 12px; }
 
-/* petit style focus pour accessibilité */
+
 .carousel-btn:focus { outline: 2px solid rgba(210,27,27,0.25); }
 .carousel-wrapper {
   position: relative;
   max-width: 1000px;
   margin: 30px auto;
-  padding: 0 60px; /* espace blanc pour flèches */
+  padding: 0 60px; 
   box-sizing: border-box;
 }
 
@@ -673,7 +673,7 @@ html {
   overflow: visible; 
 }
 
-/* piste (images) */
+
 .carousel {
   display: flex;
   gap: 16px;
@@ -704,7 +704,7 @@ html {
   border-radius: 4px;
 }
 
-/* flèches */
+
 .carousel-btn {
   position: absolute;
   top: 50%;
@@ -750,7 +750,7 @@ html {
   }
   
 .carousel img {
-  max-height: 350px; /* tu peux augmenter si tu veux */
+  max-height: 350px; 
   width: auto;
   height: auto;
   border-radius: 4px;
@@ -795,7 +795,7 @@ html {
   padding: 0 20px;
   box-sizing: border-box;
 }
-/* MEDIA QUERY pour mobile */
+
 @media (max-width: 500px) {
   .intro-text {
     font-size: 3.5rem;
@@ -825,6 +825,7 @@ html {
   border-radius: 6px;   
   object-fit: cover;    
 }
+
 
 
 
